@@ -1,2 +1,31 @@
-# Proyecto-Final-Clasificador-de-im-genes
-Proyecto final de la materia MACHINE LEARNING (ELECTIVE PROFESIONAL)
+**Model Card: Proyecto Final Clasificador de Imágenes**   
+
+
+**Resumen del Modelo**  
+Este modelo es una red neuronal básica que se utiliza para clasificar dígitos escritos a mano en la base de datos MNIST. La red neuronal consta de una capa de entrada de 784 nodos (representan los píxeles en cada imagen de entrada de 28x28). El modelo utiliza la función de activación _____ en las capas ocultas y la función de activación ____ en la capa de salida.
+
+
+**Propósito y Justificación**
+La creación de un modelo de redes neuronales para MNIST tiene implicaciones educativas importantes. La creación de modelos básicos de redes neuronales es una forma efectiva de aprender los conceptos fundamentales detrás de la construcción y entrenamiento de redes neuronales, lo que puede ser útil para aquellos que se están iniciando en el campo del aprendizaje automático o que buscan una comprensión más profunda de los conceptos.
+
+
+**Detalles del Modelo**  
+Base de datos: MNIST  
+Tamaño de entrada: 784 nodos (28x28 píxeles)  
+Capa oculta: nodos  
+Capa de salida: nodos  
+Algoritmo de optimización:  
+Función de pérdida:  
+Precisión (accuracy) en el conjunto de prueba:  
+
+
+**Rendimiento del Modelo**  
+El modelo se evaluó utilizando _______ como métrica de rendimiento. Después del entrenamiento, el modelo logró una _______ en el conjunto de prueba.
+
+
+**Sesgos Potenciales**  
+Es importante tener en cuenta que este modelo puede ser susceptible a sesgos si la base de datos de entrenamiento no es representativa de la población general. Además,
+
+
+**Limitaciones**  
+Este modelo es limitado en su capacidad para reconocer dígitos escritos a mano en situaciones en las que la calidad de la imagen es pobre o la escritura es ilegible.
