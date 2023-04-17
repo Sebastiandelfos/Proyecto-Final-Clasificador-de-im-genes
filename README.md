@@ -2,7 +2,7 @@
 
 
 **Resumen del Modelo**  
-Este modelo es una red neuronal básica que se utiliza para clasificar dígitos escritos a mano en la base de datos MNIST. La red neuronal consta de una capa de entrada de 784 nodos (representan los píxeles en cada imagen de entrada de 28x28). El modelo utiliza la función de activación _____ en las capas ocultas y la función de activación ____ en la capa de salida.
+Este modelo es una red neuronal básica que se utiliza para clasificar dígitos escritos a mano en la base de datos MNIST. La red neuronal consta de una capa de entrada de 784 nodos (representan los píxeles en cada imagen de entrada de 28x28). El modelo utiliza la función de activación sigmoid en las capas ocultas y la función de activación softmax en la capa de salida.
 
 
 **Propósito y Justificación**
@@ -12,15 +12,14 @@ La creación de un modelo de redes neuronales para MNIST tiene implicaciones edu
 **Detalles del Modelo**  
 Base de datos: MNIST  
 Tamaño de entrada: 784 nodos (28x28 píxeles)  
-Capa oculta: nodos  
-Capa de salida: nodos  
-Algoritmo de optimización:  
-Función de pérdida:  
-Precisión (accuracy) en el conjunto de prueba:  
+Capa oculta: 512 nodos  
+Capa de salida: 10 nodos  
+Algoritmo de optimización: Adam  
+Precisión (accuracy) en el conjunto de prueba: 97.32%
 
 
 **Rendimiento del Modelo**  
-El modelo se evaluó utilizando _______ como métrica de rendimiento. Después del entrenamiento, el modelo logró una _______ en el conjunto de prueba.
+El modelo se evaluó utilizando la precision como métrica de rendimiento. Después del entrenamiento, el modelo logró una 97.32% en el conjunto de prueba.
 
 
 **Sesgos Potenciales**  
