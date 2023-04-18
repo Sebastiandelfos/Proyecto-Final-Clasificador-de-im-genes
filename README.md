@@ -19,7 +19,7 @@ Precisión (accuracy) en el conjunto de prueba: 97.32%
 
 
 **Rendimiento del Modelo**  
-El modelo se evaluó utilizando la precision como métrica de rendimiento. Después del entrenamiento, el modelo logró una 97.32% en el conjunto de prueba.
+El modelo se experimento con un total de 4 versiones diferentes. Fueron evaluados utilizando la precision como métrica de rendimiento. Después del entrenamiento, el modelo mas optimo logró una 97.32% en el conjunto de prueba. Este tenia 512 capas ocultas, 10 nodos de salida. 
 
 
 **Sesgos Potenciales**  
